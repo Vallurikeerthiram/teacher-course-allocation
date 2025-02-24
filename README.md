@@ -64,6 +64,3 @@ This project is released under the **MIT License**. Feel free to use and modify 
 ## Contact
 For queries or collaborations, reach out at **keerthiramvalluri@gmail.com**.
 
----
-✅ **Now your README is professional and portfolio-ready!** 🚀 Let me know if you need any modifications. 🔥
-
