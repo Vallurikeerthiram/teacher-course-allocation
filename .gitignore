@@ -1,0 +1,33 @@
+# Ignore sensitive environment files and credentials
+.env
+config.php
+db_credentials.php
+
+# Ignore database files
+*.sql
+*.sqlite
+
+# Ignore cache, logs, and compiled files
+*.log
+*.cache
+*.DS_Store
+*.bak
+/tmp/
+sessions/
+cache/
+
+# Ignore dependencies (if using Composer)
+vendor/
+
+# Ignore Node.js dependencies (if frontend uses npm)
+node_modules/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-generated files
+Thumbs.db
+.DS_Store
