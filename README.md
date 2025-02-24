@@ -21,10 +21,10 @@ The **Teacher Course Allocation System** is a web-based application developed us
 ## User Roles & Credentials
 ```plaintext
 Role       | Username   | Password
------------|-----------|---------
-AI Faculty | rajesh    | rajesh
+-----------|------------|---------
+AI Faculty | rajesh     | rajesh
 CS Faculty | sreevidhya | sreevidhya
-HOD        | hod       | hod
+HOD        | hod        | hod
 ```
 
 ## Installation & Setup
@@ -62,7 +62,7 @@ HOD        | hod       | hod
 This project is released under the **MIT License**. Feel free to use and modify it for educational purposes.
 
 ## Contact
-For queries or collaborations, reach out at **your.email@example.com**.
+For queries or collaborations, reach out at **keerthiramvalluri@gmail.com**.
 
 ---
 ✅ **Now your README is professional and portfolio-ready!** 🚀 Let me know if you need any modifications. 🔥
