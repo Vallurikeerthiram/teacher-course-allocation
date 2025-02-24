@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #A3113E;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    cursor: move;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #A3113E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800d2b;
+}
+
+.navbar {
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(240, 240, 240, 0.95); /* Slight blackish white */
+    backdrop-filter: blur(8px); /* Glass effect */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 10px 40px; /* Padding for sides */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-logo {
+    height: 70px; /* Logo height */
+    margin-right: 40px; /* Margin to the right of the logo */
+}
+
+.navbar-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Center links */
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-link {
+    color: #333; /* Dark gray for contrast */
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    margin: 0 15px; /* Spacing between links */
+}
+
+/* Hover Effect */
+.navbar-link:hover {
+    color: #A3113E; /* Brand color on hover */
+    background: rgba(163, 17, 62, 0.1); /* Light overlay on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Underline Slide-In Effect */
+.navbar-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fff; /* White underline */
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.4s ease;
+}
+
+.navbar-link:hover::after {
+    width: 100%; /* Full width underline on hover */
+}
+
